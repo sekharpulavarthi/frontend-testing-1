@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navber-dark bg-dark ">
+      <nav className="navbar navbar-expand-lg navber-dark bg-dark sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand text-light" to="/">
             NewsMonkey
