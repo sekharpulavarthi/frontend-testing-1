@@ -81,6 +81,7 @@ export default class News extends Component {
 
 
   render() {
+    console.log(this.state.articles.length)
     return (
       <>
         <h1 className="text-center" style={{margin: '35px 0px'}}>MonkeyNews-Top Headlines</h1>
